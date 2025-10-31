@@ -1,14 +1,24 @@
-:root {
-    --cor-principal: #6e859f;
-    --cor-secundaria: #284260;
-    --cor-destaque: #c92bfc;
+/* Adicione este código ao seu arquivo style.css */
+
+/* Estilos para o Card (Sombra e Transição) */
+.card-projeto {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+    overflow: hidden; /* Garante que a imagem ampliada não "vaze" o card antes do hover */
 }
 
-body {
-    font-family: 'Arial', sans-serif;
+/* Animação: Sombra e leve elevação (ao passar o mouse) */
+.card-projeto:hover {
+    transform: translateY(-5px); /* Move o card levemente para cima */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra mais destacada */
 }
 
-h1, h2, h5 {
-    color: var(--cor-secundaria);
-    font-weight: 700;
+/* Estilos para a Imagem (Ampliação) */
+.img-projeto {
+    transition: transform 0.5s ease; /* Transição mais lenta para a ampliação da imagem */
+    display: block; /* Para melhor controle do transform */
+}
+
+/* Animação: Ampliação da imagem (ao passar o mouse no card) */
+.card-projeto:hover .img-projeto {
+    transform: scale(1.1); /* Aumenta o zoom da imagem em 10% */
 }
