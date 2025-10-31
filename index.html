@@ -1,260 +1,152 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Portfólio - Antony</title>
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal1Label">aluraflix</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Projeto inspirado na AluraFlix para adicionar vídeos favoritos.</p>
+        <img src="img/aluraflix.png" alt="aluraflix">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-  <style>
-    :root {
-      --bg-color: #ffffff;
-      --text-color: #212529;
-      --card-bg: #f8f9fa;
-      --modal-bg: #ffffff;
-      --btn-bg: #0d6efd;
-      --btn-text: #ffffff;
-      --shadow-color: rgba(0, 0, 0, 0.2);
-    }
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal2Label">barbearia</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Um site moderno de barbearia, com serviços e contatos.</p>
+        <img src="img/barbearia.png" alt="barbearia">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-    body.dark-mode {
-      --bg-color: #0e0e11;
-      --text-color: #f1f1f1;
-      --card-bg: #1a1a1f;
-      --modal-bg: #1f1f25;
-      --btn-bg: #2563eb;
-      --btn-text: #ffffff;
-      --shadow-color: rgba(255, 255, 255, 0.1);
-    }
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal3Label">flashcard</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Aplicação de estudo com perguntas e respostas rápidas.</p>
+        <img src="img/flashcard.png.png" alt="flashcard">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      transition: background-color 0.3s ease, color 0.3s ease;
-      min-height: 100vh;
-    }
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal4Label">jogoindividual</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Um jogo simples desenvolvido com JavaScript.</p>
+        <img src="img/jogoindividual.png" alt="jogoindividual">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-    header, footer {
-      color: var(--text-color);
-    }
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal5Label">jogonumero</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Tente adivinhar o número secreto neste jogo divertido.</p>
+        <img src="img/jogonumero.png" alt="jogonumero">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+    </div>
+</div>
 
-    .card {
-      background-color: var(--card-bg);
-      color: var(--text-color);
-      border: none;
-      border-radius: 15px;
-      overflow: hidden;
-      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-      box-shadow: 0 5px 10px var(--shadow-color);
-    }
+<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal6Label">mario</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Jogo inspirado no clássico Mario Bros.</p>
+        <img src="img/mario (1).png" alt="mario">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-    .card:hover {
-      transform: translateY(-8px) scale(1.03);
-      box-shadow: 0 15px 25px var(--shadow-color);
-    }
+<div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal7Label">projeto1</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Projeto desenvolvido durante o curso de programação.</p>
+        <img src="img/projeto1.png" alt="projeto1">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
 
-    .card-img-top {
-      transition: transform 0.4s ease, filter 0.4s ease;
-    }
+<div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal8Label">quizzinterativo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Um quiz interativo de perguntas e respostas.</p>
+        <img src="img/quizzinterativo.png" alt="quizzinterativo">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+      </div>
+  </div>
+</div>
 
-    .card:hover .card-img-top {
-      transform: scale(1.1);
-      filter: brightness(1.1);
-    }
-
-    .modal-content {
-      background-color: var(--modal-bg);
-      color: var(--text-color);
-      border-radius: 15px;
-      overflow: hidden;
-      animation: aparecer 0.4s ease;
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    @keyframes aparecer {
-      from { opacity: 0; transform: scale(0.9); }
-      to { opacity: 1; transform: scale(1); }
-    }
-
-    .modal-body img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
-      transform: scale(0.9);
-      opacity: 0;
-      animation: zoomIn 0.6s ease forwards;
-      box-shadow: 0 10px 20px var(--shadow-color);
-    }
-
-    @keyframes zoomIn {
-      to { transform: scale(1); opacity: 1; }
-    }
-
-    .btn-primary {
-      background-color: var(--btn-bg);
-      border-color: var(--btn-bg);
-      color: var(--btn-text);
-      transition: filter 0.2s ease, transform 0.2s ease;
-    }
-
-    .btn-primary:hover {
-      filter: brightness(1.1);
-      transform: scale(1.05);
-    }
-
-    .theme-toggle {
-      position: absolute;
-      top: 20px;
-      right: 25px;
-      background: none;
-      border: none;
-      font-size: 1.8rem;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-    }
-
-    .theme-toggle:hover {
-      transform: scale(1.15);
-    }
-  </style>
-</head>
-
-<body>
-  <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
-
-  <header class="container text-center my-5">
-    <img src="avatar.png" alt="avatar" class="rounded-circle" width="150" height="150">
-    <p class="lead mt-3">Eu sou Aluno Antony</p>
-    <h1>Futuro Lutador</h1>
-    <p>Sou estudante do Colégio Júlio Mesquita e pratico Muay Thai em uma academia. Tenho o sonho de me tornar um lutador profissional e me dedico aos treinos diariamente para alcançar meus objetivos.</p>
-    <h5 class="mt-4">Minhas Habilidades</h5>
-    <div>
-      <span class="badge bg-secondary">HTML</span>
-      <span class="badge bg-secondary">CSS</span>
-      <span class="badge bg-secondary">JavaScript</span>
-    </div>
-  </header>
-
-  <main class="container">
-    <h2 class="text-center mb-4">Meus Projetos</h2>
-    <div class="row g-4">
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/aluraflix.png" class="card-img-top" alt="aluraflix">
-          <div class="card-body">
-            <h5 class="card-title">aluraflix</h5>
-            <p class="card-text">Projeto inspirado na AluraFlix para adicionar vídeos favoritos.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/barbearia.png" class="card-img-top" alt="barbearia">
-          <div class="card-body">
-            <h5 class="card-title">barbearia</h5>
-            <p class="card-text">Um site moderno de barbearia, com serviços e contatos.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/flashcard.png.png" class="card-img-top" alt="flashcard">
-          <div class="card-body">
-            <h5 class="card-title">flashcard</h5>
-            <p class="card-text">Aplicação de estudo com perguntas e respostas rápidas.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/jogoindividual.png" class="card-img-top" alt="jogoindividual">
-          <div class="card-body">
-            <h5 class="card-title">jogoindividual</h5>
-            <p class="card-text">Um jogo simples desenvolvido com JavaScript.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/jogonumero.png" class="card-img-top" alt="jogonumero">
-          <div class="card-body">
-            <h5 class="card-title">jogonumero</h5>
-            <p class="card-text">Tente adivinhar o número secreto neste jogo divertido.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/mario (1).png" class="card-img-top" alt="mario">
-          <div class="card-body">
-            <h5 class="card-title">mario</h5>
-            <p class="card-text">Jogo inspirado no clássico Mario Bros.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/projeto1.png" class="card-img-top" alt="projeto1">
-          <div class="card-body">
-            <h5 class="card-title">projeto1</h5>
-            <p class="card-text">Projeto desenvolvido durante o curso de programação.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/quizzinterativo.png" class="card-img-top" alt="quizzinterativo">
-          <div class="card-body">
-            <h5 class="card-title">quizzinterativo</h5>
-            <p class="card-text">Um quiz interativo de perguntas e respostas.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card h-100">
-          <img src="img/siteescola.png" class="card-img-top" alt="siteescola">
-          <div class="card-body">
-            <h5 class="card-title">siteescola</h5>
-            <p class="card-text">Site institucional da escola com informações e links úteis.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </main>
-
-  <footer class="container py-5 text-center">
-    <h2>Entre em contato</h2>
-    <a href="https://github.com/" target="_blank" class="btn btn-dark mt-2">GitHub</a>
-    <p class="mt-4">Produzido por &copy; Antony - 2B</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-    const themeToggle = document.getElementById('theme-toggle');
-    const body = document.body;
-
-    if (localStorage.getItem('theme') === 'dark') {
-      body.classList.add('dark-mode');
-      themeToggle.textContent = '🔆';
-    }
-
-    themeToggle.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
-      const isDark = body.classList.contains('dark-mode');
-      themeToggle.textContent = isDark ? '🔆' : '🌙';
-      localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    });
-  </script>
-</body>
-</html>
+<div class="modal fade" id="modal9" tabindex="-1" aria-labelledby="modal9Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modal9Label">siteescola</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      <div class="modal-body">
+        <p>Site institucional da escola com informações e links úteis.</p>
+        <img src="img/siteescola.png" alt="siteescola">
+      </div>
+      <div class="modal-footer">
+        <a href="#" target="_blank" class="btn btn-primary">Veja o projeto</a>       </div>
+    </div>
+  </div>
+</div>
